@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feria del Libro de Tunja 2026 - Registro</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&family=Playfair+Display:wght@700&display=swap');
+        
+        :root {
+            --primary: #8B0000; /* Rojo colonial de Tunja */
+            --secondary: #D4AF37; /* Dorado */
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            scroll-behavior: smooth;
+        }
+
+        .font-serif {
+            font-family: 'Playfair Display', serif;
+        }
+
+        .bg-tunja-red {
+            background-color: var(--primary);
+        }
+
+        .text-tunja-red {
+            color: var(--primary);
+        }
+
+        .hero-gradient {
+            background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('https://images.unsplash.com/photo-1507842217343-583bb7270b66?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80');
+            background-size: cover;
+            background-position: center;
+        }
+
+        .card-shadow {
+            box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1), 0 8px 10px -6px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-900">
+
+    <!-- Hero Section -->
+    <header class="hero-gradient min-h-screen flex items-center justify-center text-white text-center px-4">
+        <div class="max-w-4xl">
+            <span class="inline-block px-4 py-1 border border-white/30 rounded-full text-sm font-semibold mb-6 animate-pulse">
+                MAYO 15 - 20, 2026 | TUNJA, BOYACÁ
+            </span>
+            <h1 class="text-5xl md:text-7xl font-serif font-bold mb-6">Tunja se escribe con <span class="text-yellow-400">Letras</span></h1>
+            <p class="text-xl md:text-2xl mb-10 text-slate-200">Únete al encuentro literario más importante de la región. Una semana para descubrir, aprender y soñar entre libros.</p>
+            <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                <a href="#registro" class="bg-white text-slate-900 px-8 py-4 rounded-full font-bold text-lg hover:bg-yellow-400 transition duration-300">
+                    Registrarme ahora
+                </a>
+                <a href="#motivacion" class="bg-transparent border-2 border-white/50 px-8 py-4 rounded-full font-bold text-lg hover:bg-white/10 transition duration-300">
+                    Ver más información
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Motivación Section -->
+    <section id="motivacion" class="py-20 px-4 max-w-6xl mx-auto">
+        <div class="text-center mb-16">
+            <h2 class="text-3xl md:text-4xl font-serif font-bold text-tunja-red mb-4">¿Por qué no puedes faltar?</h2>
+            <div class="w-20 h-1 bg-yellow-400 mx-auto"></div>
+        </div>
+        
+        <div class="grid md:grid-cols-3 gap-8">
+            <div class="bg-white p-8 rounded-2xl card-shadow border-t-4 border-tunja-red">
+                <div class="bg-red-100 w-12 h-12 flex items-center justify-center rounded-lg mb-6 text-tunja-red">
+                    <i class="fas fa-feather-alt text-2xl"></i>
+                </div>
+                <h3 class="text-xl font-bold mb-3">Autores Nacionales</h3>
+                <p class="text-slate-600">Charlas exclusivas con los escritores más influyentes del país y nuevos talentos boyacenses.</p>
+            </div>
+            
+            <div class="bg-white p-8 rounded-2xl card-shadow border-t-4 border-yellow-500">
+                <div class="bg-yellow-100 w-12 h-12 flex items-center justify-center rounded-lg mb-6 text-yellow-600">
+                    <i class="fas fa-book-open text-2xl"></i>
+                </div>
+                <h3 class="text-xl font-bold mb-3">Lanzamientos Exclusivos</h3>
+                <p class="text-slate-600">Sé el primero en adquirir las novedades editoriales del año con descuentos especiales para asistentes.</p>
+            </div>
+            
+            <div class="bg-white p-8 rounded-2xl card-shadow border-t-4 border-tunja-red">
+                <div class="bg-red-100 w-12 h-12 flex items-center justify-center rounded-lg mb-6 text-tunja-red">
+                    <i class="fas fa-brain text-2xl"></i>
+                </div>
+                <h3 class="text-xl font-bold mb-3">Talleres Gratuitos</h3>
+                <p class="text-slate-600">Desde escritura creativa hasta edición digital, potencia tus habilidades con expertos del sector.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonios Section -->
+    <section class="py-20 bg-slate-900 text-white px-4">
+        <div class="max-w-6xl mx-auto">
+            <h2 class="text-3xl md:text-4xl font-serif font-bold text-center mb-16">Lo que dicen nuestros asistentes</h2>
+            
+            <div class="grid md:grid-cols-2 gap-8">
+                <div class="bg-white/5 p-8 rounded-2xl border border-white/10 italic">
+                    <p class="text-lg mb-6">"La Feria del Libro de Tunja es el oasis cultural que la ciudad necesitaba. El año pasado descubrí mi autor favorito en un conversatorio."</p>
+                    <div class="flex items-center gap-4">
+                        <div class="w-12 h-12 bg-slate-700 rounded-full flex items-center justify-center font-bold text-yellow-400">MC</div>
+                        <div>
+                            <p class="font-bold">Mariana Cárdenas</p>
+                            <p class="text-sm text-slate-400">Estudiante UPTC</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="bg-white/5 p-8 rounded-2xl border border-white/10 italic">
+                    <p class="text-lg mb-6">"Como docente, valoro el espacio que dan a los nuevos narradores. Es una cita obligatoria para mis estudiantes cada año."</p>
+                    <div class="flex items-center gap-4">
+                        <div class="w-12 h-12 bg-slate-700 rounded-full flex items-center justify-center font-bold text-yellow-400">RH</div>
+                        <div>
+                            <p class="font-bold">Ricardo Herrera</p>
+                            <p class="text-sm text-slate-400">Profesor de Literatura</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Registro Section -->
+    <section id="registro" class="py-20 px-4 bg-white">
+        <div class="max-w-xl mx-auto">
+            <div class="text-center mb-10">
+                <h2 class="text-3xl font-serif font-bold text-tunja-red mb-2">Formulario de Inscripción</h2>
+                <p class="text-slate-600">Completa tus datos para recibir tu entrada digital gratuita.</p>
+            </div>
+
+            <div id="form-container" class="bg-slate-50 p-8 rounded-3xl shadow-xl border border-slate-200">
+                <form id="feriaForm" class="space-y-4">
+                    <div>
+                        <label class="block text-sm font-semibold mb-1 text-slate-700">Nombres y Apellidos</label>
+                        <input type="text" id="nombre" required placeholder="Ej. Juan Pérez"
+                            class="w-full px-4 py-3 rounded-xl border border-slate-300 focus:ring-2 focus:ring-red-500 focus:outline-none transition">
+                    </div>
+                    
+                    <div>
+                        <label class="block text-sm font-semibold mb-1 text-slate-700">Documento de Identidad</label>
+                        <input type="text" id="documento" required placeholder="C.C. o T.I."
+                            class="w-full px-4 py-3 rounded-xl border border-slate-300 focus:ring-2 focus:ring-red-500 focus:outline-none transition">
+                    </div>
+
+                    <div>
+                        <label class="block text-sm font-semibold mb-1 text-slate-700">No. Teléfono Celular</label>
+                        <input type="tel" id="telefono" required placeholder="300 000 0000"
+                            class="w-full px-4 py-3 rounded-xl border border-slate-300 focus:ring-2 focus:ring-red-500 focus:outline-none transition">
+                    </div>
+
+                    <div>
+                        <label class="block text-sm font-semibold mb-1 text-slate-700">Correo Electrónico</label>
+                        <input type="email" id="email" required placeholder="usuario@email.com"
+                            class="w-full px-4 py-3 rounded-xl border border-slate-300 focus:ring-2 focus:ring-red-500 focus:outline-none transition">
+                    </div>
+
+                    <div>
+                        <label class="block text-sm font-semibold mb-1 text-slate-700">Tipo de Entrada</label>
+                        <select id="tipoEntrada" required
+                            class="w-full px-4 py-3 rounded-xl border border-slate-300 focus:ring-2 focus:ring-red-500 focus:outline-none transition appearance-none bg-white">
+                            <option value="">Seleccione una opción</option>
+                            <option value="General">General</option>
+                            <option value="Estudiante Universitario">Estudiante Universitario</option>
+                            <option value="Profesor Universitario">Profesor Universitario</option>
+                            <option value="Estudiante Secundaria">Estudiante Secundaria</option>
+                            <option value="Profesor Secundaria">Profesor Secundaria</option>
+                        </select>
+                    </div>
+
+                    <button type="submit" id="submitBtn"
+                        class="w-full bg-tunja-red text-white font-bold py-4 rounded-xl hover:bg-red-800 transition duration-300 mt-6 shadow-lg flex items-center justify-center gap-2">
+                        <span>Registrar mi Asistencia</span>
+                        <i class="fas fa-paper-plane"></i>
+                    </button>
+                </form>
+
+                <!-- Feedback Message -->
+                <div id="successMsg" class="hidden text-center py-10">
+                    <div class="w-20 h-20 bg-green-100 text-green-600 rounded-full flex items-center justify-center mx-auto mb-6 text-3xl">
+                        <i class="fas fa-check"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-2">¡Registro Exitoso!</h3>
+                    <p class="text-slate-600 mb-6">Hemos enviado los detalles a tu correo electrónico. ¡Nos vemos en la Feria!</p>
+                    <button onclick="resetForm()" class="text-tunja-red font-bold hover:underline">Registrar otra persona</button>
+                </div>
+
+                <!-- Error Message -->
+                <div id="errorMsg" class="hidden mt-4 p-4 bg-red-100 text-red-700 rounded-xl text-sm text-center">
+                    Hubo un error al procesar tu registro. Por favor intenta de nuevo.
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-slate-100 py-10 border-t border-slate-200">
+        <div class="max-w-6xl mx-auto px-4 text-center">
+            <p class="font-serif font-bold text-tunja-red text-xl mb-4">Feria del Libro de Tunja 2026</p>
+            <div class="flex justify-center gap-6 mb-6">
+                <a href="#" class="text-slate-400 hover:text-tunja-red transition"><i class="fab fa-facebook-f text-xl"></i></a>
+                <a href="#" class="text-slate-400 hover:text-tunja-red transition"><i class="fab fa-instagram text-xl"></i></a>
+                <a href="#" class="text-slate-400 hover:text-tunja-red transition"><i class="fab fa-twitter text-xl"></i></a>
+            </div>
+            <p class="text-slate-500 text-sm">&copy; 2026 Secretaría de Cultura de Tunja. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <!-- Firebase SDKs -->
+    <script type="module">
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/11.6.1/firebase-app.js";
+        import { getAuth, signInAnonymously, onAuthStateChanged } from "https://www.gstatic.com/firebasejs/11.6.1/firebase-auth.js";
+        import { getFirestore, collection, addDoc, serverTimestamp } from "https://www.gstatic.com/firebasejs/11.6.1/firebase-firestore.js";
+
+        // Configuración de Firebase del usuario
+        const firebaseConfig = {
+            apiKey: "AIzaSyD955Nbw1rKiTBEom0V4Dkl2RyYBJRyhCc",
+            authDomain: "myweb-8c070.firebaseapp.com",
+            projectId: "myweb-8c070",
+            storageBucket: "myweb-8c070.firebasestorage.app",
+            messagingSenderId: "479185078309",
+            appId: "1:479185078309:web:4644385246a407b97857cc"
+        };
+
+        // ID de la aplicación para las rutas de Firestore
+        const appId = typeof __app_id !== 'undefined' ? __app_id : 'feria-libro-tunja';
+
+        // Inicializar Firebase
+        const app = initializeApp(firebaseConfig);
+        const auth = getAuth(app);
+        const db = getFirestore(app);
+
+        let currentUser = null;
+
+        // Lógica de Autenticación ajustada (Regla 3 corregida para evitar custom-token-mismatch)
+        const initAuth = async () => {
+            try {
+                // Priorizamos el inicio anónimo para evitar conflictos de tokens externos con la API Key del usuario
+                await signInAnonymously(auth);
+            } catch (error) {
+                console.error("Error de autenticación:", error);
+            }
+        };
+
+        onAuthStateChanged(auth, (user) => {
+            currentUser = user;
+        });
+
+        initAuth();
+
+        // Lógica de envío del formulario
+        const feriaForm = document.getElementById('feriaForm');
+        const submitBtn = document.getElementById('submitBtn');
+        const successMsg = document.getElementById('successMsg');
+        const errorMsg = document.getElementById('errorMsg');
+
+        feriaForm.addEventListener('submit', async (e) => {
+            e.preventDefault();
+            
+            if (!currentUser) {
+                // Reintentar auth si por alguna razón no se ha logueado
+                await initAuth();
+                if(!currentUser) {
+                    errorMsg.textContent = "Error de conexión. Por favor verifica tu conexión a internet.";
+                    errorMsg.classList.remove('hidden');
+                    return;
+                }
+            }
+
+            // Estado UI: Cargando
+            submitBtn.disabled = true;
+            submitBtn.innerHTML = '<i class="fas fa-spinner fa-spin"></i> Procesando...';
+            errorMsg.classList.add('hidden');
+
+            const formData = {
+                nombre: document.getElementById('nombre').value,
+                documento: document.getElementById('documento').value,
+                telefono: document.getElementById('telefono').value,
+                email: document.getElementById('email').value,
+                tipoEntrada: document.getElementById('tipoEntrada').value,
+                timestamp: serverTimestamp(),
+                userId: currentUser.uid
+            };
+
+            try {
+                // Regla 1: Rutas de Firestore Estrictas
+                // Ruta: /artifacts/{appId}/public/data/{collectionName}
+                const docRef = await addDoc(collection(db, 'artifacts', appId, 'public', 'data', 'inscripciones'), formData);
+                
+                // Estado UI: Éxito
+                feriaForm.classList.add('hidden');
+                successMsg.classList.remove('hidden');
+                console.log("Inscripción exitosa:", docRef.id);
+            } catch (error) {
+                console.error("Error al guardar en Firestore:", error);
+                errorMsg.textContent = "Error al guardar los datos. Asegúrate de tener habilitado Firestore en tu consola de Firebase.";
+                errorMsg.classList.remove('hidden');
+                submitBtn.disabled = false;
+                submitBtn.innerHTML = '<span>Registrar mi Asistencia</span> <i class="fas fa-paper-plane"></i>';
+            }
+        });
+
+        // Función de reinicio global
+        window.resetForm = () => {
+            feriaForm.reset();
+            feriaForm.classList.remove('hidden');
+            successMsg.classList.add('hidden');
+            submitBtn.disabled = false;
+            submitBtn.innerHTML = '<span>Registrar mi Asistencia</span> <i class="fas fa-paper-plane"></i>';
+        };
+
+    </script>
+</body>
+</html>
